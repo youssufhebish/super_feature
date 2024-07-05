@@ -1,0 +1,15 @@
+name: super_feature
+description: A Special MVVM Super Feature
+repository: https://github.com/youssufhebish/super_feature.git
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.51 <0.1.0"
+
+vars:
+  name:
+    type: string
+    description: Your name
+    default: new_feature
+    prompt: What is your feature name?
